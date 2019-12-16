@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrimsoft.CountryRecognitionService", "Hrimsoft.CountryRecognitionService\Hrimsoft.CountryRecognitionService.csproj", "{F42B4F0C-DD01-4F25-9B7F-E02EF0C80F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{29042E9D-7C09-4DC5-A0D2-28231027BA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrimsoft.CountryRecognitionServiceTests", "tests\Hrimsoft.CountryRecognitionServiceTests\Hrimsoft.CountryRecognitionServiceTests.csproj", "{9FF9BFD5-79DA-41C5-9720-FCDAC39C3E49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F42B4F0C-DD01-4F25-9B7F-E02EF0C80F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42B4F0C-DD01-4F25-9B7F-E02EF0C80F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42B4F0C-DD01-4F25-9B7F-E02EF0C80F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42B4F0C-DD01-4F25-9B7F-E02EF0C80F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF9BFD5-79DA-41C5-9720-FCDAC39C3E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF9BFD5-79DA-41C5-9720-FCDAC39C3E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF9BFD5-79DA-41C5-9720-FCDAC39C3E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF9BFD5-79DA-41C5-9720-FCDAC39C3E49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FF9BFD5-79DA-41C5-9720-FCDAC39C3E49} = {29042E9D-7C09-4DC5-A0D2-28231027BA81}
+	EndGlobalSection
+EndGlobal

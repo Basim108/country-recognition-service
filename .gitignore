@@ -1,0 +1,10 @@
+.idea
+.vs
+
+src/Hrimsoft.CountryRecognitionService/bin
+src/Hrimsoft.CountryRecognitionService/obj
+
+src/tests/Hrimsoft.CountryRecognitionServiceTests/bin
+src/tests/Hrimsoft.CountryRecognitionServiceTests/obj
+
+*.DotSettings.user

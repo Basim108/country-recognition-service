@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Hrimsoft.CountryRecognitionService</PackageId>
+        <Title>Hrimsoft.CountryRecognitionService</Title>
+        <Authors>Basim Al-Jawahery</Authors>
+        <Description>Converts different countries representations to a standard format e.g. iso 3166</Description>
+        <PackageProjectUrl>https://github.com/Basim108/country-recognition-service</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Basim108/country-recognition-service</RepositoryUrl>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+        <Company>Himsoft</Company>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.0.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.0.1" />
+    </ItemGroup>
+
+</Project>
